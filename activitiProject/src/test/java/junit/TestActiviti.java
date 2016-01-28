@@ -7,6 +7,19 @@ import org.junit.Test;
 public class TestActiviti {
 	/**
 	 * 使用代码创建工作流需要23张表
+	 * mysql-connector-java-5.1.9.jar
+	 * mybatis-3.2.3.jar
+	 * slf4j-api-1.6.2.jar
+	 * 
+	 * jackson-databind-2.2.3.jar
+	 * jackson-core-2.2.3.jar
+	 * jackson-annotations-2.2.3.jar
+	 * 
+	 * joda-time-2.9.1.jar
+	 * commons-lang3-3.1.jar
+	 * 
+	 * https://github.com/niezhida/activitiProject.git
+	 * 
 	 */
 	@Test
 	public void createTable(){

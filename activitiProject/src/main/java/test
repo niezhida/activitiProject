@@ -1,0 +1,25 @@
+sequenceFlow->main config-->condition
+#{}
+${}
+
+排他网关：用于分支判断exclusiveGateWay.png  --${money>=500 && money<=1000}
+
+并行网关：parallelGateWay  分支，聚合
+
+接收活动;receiveTask 即等待活动,当流程打到接收任务，流程状态会保存到数据库中！在任务创建后，以为着流程进入等待状态，直到引擎收到一个特定的消息，这会触发流程穿过接收任务继续执行
+当前任务(一般指机器自动完成，但需要消耗一定时间的工作)完成后，向后推移流程
+
+MMD模型
+
+http://www.jeecg.org/forum.php?mod=viewthread&tid=272&extra=page%3D1
+
+http://fex.baidu.com/webuploader/?qq-pf-to=pcqq.c2c
+
+跨域
+我之前所说的跨域的问题，将chrome版本降至45即可解决，我开始用的是49
+win10,在谷歌浏览器里面设置chrome.exe" --args --disable-web-security
+快捷方式--目标--
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security
+
+2016 今年热门微服务，可以去看看springboot
+http://www.infoq.com/cn/articles/microframeworks1-spring-boot/

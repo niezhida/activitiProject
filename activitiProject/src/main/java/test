@@ -1,3 +1,5 @@
+版本activiti-5.19.0
+
 sequenceFlow->main config-->condition
 #{}
 ${}
@@ -11,8 +13,9 @@ ${}
 
 个人任务，配置文件固化，class监听，启动流程/审批设置流程变量审批人${userId}
 
-组任务分配:
+组任务分配:一组人完成的任务，(并审，串审),设置方式：3种，常量，流程变量${userIds}，class监听
 
+m_groupUser()工作流提供的用户角色组
 
 git:
 https://github.com/
@@ -32,3 +35,9 @@ win10,在谷歌浏览器里面设置chrome.exe" --args --disable-web-security
 
 2016 今年热门微服务，可以去看看springboot
 http://www.infoq.com/cn/articles/microframeworks1-spring-boot/
+
+在线预览，修改
+点聚weboffice
+邮件附件在线预览——HTML Filter(hyfsoft) http://blog.csdn.net/hyfsoft4/article/details/38018485
+pageOffice免费版 http://www.onlinedown.net/softdown/563777_2.htm
+SOAOffice

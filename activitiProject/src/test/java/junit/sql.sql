@@ -60,5 +60,16 @@ select * from act_ru_variable #--正在执行的流程变量表  BYTEARRAY_ID_  资源文件表
 select * from act_hi_variable #--历史流程变量表 ，旧版本(5.13)
 select * from ACT_HI_VARINST #--历史流程变量表 新版本，当前使用版本（5.19.0）
 
+#--任务办理人表(个人任务,组任务)  参与者(participant),候选者(candidate)
+select * from act_ru_identitylink;
+#--历史任务办理人表
+select * from act_hi_identitylink;
 
 
+#--工作流定义的角色组
+select * from act_id_group;#--角色表
+
+select * from act_id_user ;#--用户表
+
+#--用户角色关联表
+select * from act_id_membership;
